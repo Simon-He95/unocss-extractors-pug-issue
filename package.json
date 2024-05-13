@@ -1,0 +1,17 @@
+{
+  "name": "unocss-extractor-pug",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "unocss --watch"
+  },
+  "devDependencies": {
+    "@unocss/extractor-pug": "^0.60.0",
+    "pug": "^3.0.2",
+    "unocss": "^0.60.0"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "node .stackblitz.js && npm install && npm run dev"
+  }
+}
